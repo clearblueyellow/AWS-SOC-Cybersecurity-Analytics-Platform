@@ -1,5 +1,13 @@
 # AWS SOC Cybersecurity Analytics Platform
 
+Traditional security information and event management (SIEM) systems often struggle to scale
+effectively or leverage cloud-native capabilities. Building a SOC analytics platform on Amazon
+Web Services (AWS) offers significant advantages, including inherent scalability, the operational
+efficiency of managed services, powerful integration capabilities across a comprehensive suite
+of security tools, and access to advanced analytics and machine learning (ML) features. AWS
+provides a foundation where security is integrated, allowing organizations to construct robust
+monitoring and response systems.
+
 ## AWS Native Security Services:<br/>
 ### Amazon GuardDuty<br/>
 Data Type: Findings<br/>
