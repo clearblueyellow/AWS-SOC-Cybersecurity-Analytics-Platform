@@ -1,34 +1,36 @@
 # AWS-SOC-Cybersecurity-Analytics-Platform
 
-AWS Native Security Services:
-| Amazon GuardDuty
-Data Type: Findings
-Key Information Provided: Malicious activity, unauthorized behavior, compromised resources (instances, accounts, S3)
-SOC Relevance: Threat Detection, Incident Alerting 
+AWS Native Security Services:<br/>
+| Amazon GuardDuty<br/>
+Data Type: Findings<br/>
+Key Information Provided: Malicious activity, unauthorized behavior, compromised resources (instances, accounts, S3)<br/>
+SOC Relevance: Threat Detection, Incident Alerting<br/>
 
-| AWS Security Hub
-Data Type: Findings (Aggregated)
+| AWS Security Hub<br/>
+Data Type: Findings (Aggregated)<br/>
 Key Information Provided: Centralized view of security alerts, compliance
-status checks
-SOC Relevance: Alert Management, Compliance Monitoring, Security Posture Overview
+status checks<br/>
+SOC Relevance: Alert Management, Compliance Monitoring, Security Posture Overview<br/>
 
-| AWS CloudTrail
-Data Type: Logs
-Key Information Provided: API call history, user activity, resource changes SOC Relevance: Forensics, Auditing,Compliance, Incident Investigation
+| AWS CloudTrail<br/>
+Data Type: Logs<br/>
+Key Information Provided: API call history, user activity, resource changes<br/>
+SOC Relevance: Forensics, Auditing,Compliance, Incident Investigation<br/>
 
-| AWS Config 
-Data Type: Configuration, Logs (Changes) 
+| AWS Config<br/>
+Data Type: Configuration, Logs (Changes)<br/>
 Key Information Provided: Resource inventory, configuration history,
-compliance checks
+compliance checks<br/>
 SOC Relevance: Compliance Monitoring, Security Posture Assessment, Change
-Management
+Management<br/>
 
-| VPC Flow Logs
-Data Type: Logs 
-Key Information Provided: IP traffic metadata (source/dest IP, port, protocol, packets, bytes,action) 
-SOC RelevanceL Network Monitoring, Threat Detection, Network Forensics |
+| VPC Flow Logs<br/>
+Data Type: Logs<br/>
+Key Information Provided: IP traffic metadata (source/dest IP, port, protocol, packets, bytes,action)<br/>
+SOC Relevance: Network Monitoring, Threat Detection, Network Forensics
 
-| AWS Network Firewall | Logs | Traffic flow details, firewall rule actions (allow/deny) | Network
+| AWS Network Firewall<br/>
+Data Type: Logs | Traffic flow details, firewall rule actions (allow/deny) | Network
 Security Monitoring, Policy Enforcement Verification |
 | AWS WAF | Logs | Web request details, matched rules, source IPs, blocked threats (SQLi,
 XSS) | Web Application Security Monitoring, Threat Analysis |
