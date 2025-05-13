@@ -1,15 +1,23 @@
 # AWS SOC Cybersecurity Analytics Platform
 
-Traditional security information and event management (SIEM) systems often struggle to scale effectively or leverage cloud-native capabilities. Building a SOC analytics platform on Amazon Web Services (AWS) offers significant advantages, including inherent scalability, the operational
-efficiency of managed services, powerful integration capabilities across a comprehensive suite of security tools, and access to advanced analytics and machine learning (ML) features. AWS provides a foundation where security is integrated, allowing organizations to construct robust monitoring and response systems.
+Traditional security information and event management (SIEM) systems often struggle to scale effectively or leverage cloud-native capabilities. Building a SOC analytics platform on Amazon Web Services (AWS) offers significant advantages, including inherent scalability, the operational efficiency of managed services, powerful integration capabilities across a comprehensive suite of security tools, and access to advanced analytics and machine learning (ML) features. AWS provides a foundation where security is integrated, allowing organizations to construct robust monitoring and response systems.
 
 The data from AWS security services and external data to be monitored should be sent to Amazon Simple Storage Service (S3) to create a Security Data Lake. The data will then be transformed and loaded for querying and analysis.
 
+### Example Architecture:
+
 ![AWS Security Operations Center (SOC) Platform Architecture](https://github.com/user-attachments/assets/144bfcac-38a0-41f8-a305-1d8211c236a1)
+Basic Platform
+
+
+
+![AWS Security Operations Center Platform Architecture 2](https://github.com/user-attachments/assets/a7a54754-e706-486c-8a3f-a5e7ce70a960)<br/>
+Basic AI/ML-Assisted Platform
+
 
 ## Security Data Lake on S3
 
-The foundation of a scalable and flexible SOC analytics platform on AWS is typically a security data lake built on Amazon Simple Storage Service (Amazon S3). S3 provides virtually unlimitedscalability, high durability, relatively low storage costs, and decouples data storage from compute, making it an ideal central repository for diverse security logs and findings.
+The foundation of a scalable and flexible SOC analytics platform on AWS is typically a security data lake built on Amazon Simple Storage Service (Amazon S3). S3 provides virtually unlimited scalability, high durability, relatively low storage costs, and decouples data storage from compute, making it an ideal central repository for diverse security logs and findings.
 
 Effective organization is key to a usable data lake. Data within S3 should be structured logically using prefixes (which function like folders). A common approach involves layering the data, for example:
 * raw/: Stores ingested data in its original format.
