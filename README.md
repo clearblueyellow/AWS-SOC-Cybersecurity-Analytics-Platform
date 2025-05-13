@@ -5,6 +5,8 @@ efficiency of managed services, powerful integration capabilities across a compr
 
 The data from AWS security services and external data to be monitored should be sent to Amazon Simple Storage Service (S3) to create a Security Data Lake. The data will then be transformed and loaded for querying and analysis.
 
+![AWS Security Operations Center (SOC) Platform Architecture](https://github.com/user-attachments/assets/144bfcac-38a0-41f8-a305-1d8211c236a1)
+
 ## Security Data Lake on S3
 
 The foundation of a scalable and flexible SOC analytics platform on AWS is typically a security data lake built on Amazon Simple Storage Service (Amazon S3). S3 provides virtually unlimitedscalability, high durability, relatively low storage costs, and decouples data storage from compute, making it an ideal central repository for diverse security logs and findings.
